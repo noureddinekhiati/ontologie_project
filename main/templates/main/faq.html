@@ -1,0 +1,76 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Groupe IGS - Test de Positionnement - Compétences </title>
+    <link href="{% static "style.css"%}" rel="stylesheet" type="text/css" >
+    <link rel="icon" type="image/png" href="{% static "img/icon_igs.png"%}"/>
+    <link rel="stylesheet" href="{% static "bootstrap/css/bootstrap.min.css"%}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="{% static "css/vanilla-zoom.min.css"%}">
+</head>
+
+<body class="faq_body">
+
+    <nav class="contact-nav">
+        <a href="index.html"><img src="#" class="logo"></a>
+        <ul class="nav-links">
+            <li><a href={% url 'index' %}>Accueil</a></li>
+            <li><a href={% url 'contact' %}>Contact</a></li>
+            <li><a href={% url 'faq' %}>FAQ</a></li>
+        </ul>
+    </nav>   
+</div>
+    <h1 class="faq_title">Foire aux questions</h1>
+    <p class="faq_p"> Vous trouvez dans cette page les questions les plus fréquentes   </p>
+    <div class="accordion" role="tablist" id="accordion-1">
+        <div class="accordion-item">
+            <h2 class="accordion-header" role="tab"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1">Liste des moyens de tranport </button></h2>
+            <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1">
+                <div class="accordion-body">
+                      <ul>
+                          <li>Bike</li>
+                          <li>Car</li>
+                          <li>Bus</li>
+                          <li>Metro</li>
+                          <li>Taix</li>
+                          <li>Hybrid car</li>
+                          <li>Tramway</li>
+                          <li>Ferry</li>
+                          <li>Electric Scooter</li>
+                          <li>Walk</li>
+                          <li>Electric Bike</li>
+                      </ul>  
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">Accordion Item</button></h2>
+            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
+                <div class="accordion-body">
+                    <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">Accordion Item</button></h2>
+            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                <div class="accordion-body">
+                    <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="{% static "js/vanilla-zoom.js"%}"></script>
+    <script src="{% static "js/theme.js"%}"></script>
+</body>
+
+</html>
