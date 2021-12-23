@@ -1,0 +1,1917 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology"
+     xml:base="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology">
+        <rdfs:seeAlso>ontologie de tranport 
+
+Authors: KHiati R.Noureddine , Marzouki Amine</rdfs:seeAlso>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CarbonFootprint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Comfort"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cost"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDensePickupPoints -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDensePickupPoints">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#PickupPointsDensity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DisabledFriendliness"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MaxCapacity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safety"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Speed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DisabledFriendliness"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotAccessibleToDisabledPerson"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AffordableAndAccessibleTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AffordableAndAccessibleTransportMode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Free"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Moderate"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDensePickupPoints"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#HighDensity"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For allowing urban transport access to the largest part of townspeople, with the highest possible density of pickup points, and the lowest possible cost</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#BestQualityPriceRatioTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#BestQualityPriceRatioTransportMode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Free"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Fast"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For people who search for the best quality/price ratio (i.e. the most comfortable and fast transport mode at the lowest price)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Bike -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Bike">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TwoWheeler"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NoPolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Low"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Free"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotAccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Risky"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Slow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Roadway"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDensePickupPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#HighDensity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MoreThanFivePeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Slow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Taxi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Car -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Car">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Personal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FivePeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CarPooling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CarPooling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Shared"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDensePickupPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LowDensity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotAccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Risky"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Fast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CarbonFootprint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CarbonFootprint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Comfort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Comfort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CompactCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CompactCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Car"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Polluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Expensive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FourPeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ModeratelyRisky"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DisabledFriendliness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DisabledFriendliness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DisabledFriendlyTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DisabledFriendlyTransportMode">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For disabled people, who need adapted transport modes</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DomainThing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DomainThing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#EcoFriendlyTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#EcoFriendlyTransportMode">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NoPolluting"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For people who want to find a transport mode which respects the environment, thus contributing to a sustainable development of the city</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ElectricBike -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ElectricBike">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TwoWheeler"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Low"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotAccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Risky"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VerySlow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ElectricScooter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ElectricScooter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TwoWheeler"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Expensive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotAccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnePerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Risky"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Fast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Elitist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Elitist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Expensive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Expensive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Fast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Fast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Speed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Ferry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Ferry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Riverway"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDensePickupPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LowDensity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotAccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotFrequent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Fast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FivePeople -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FivePeople">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MaxCapacity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FourPeople -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FourPeople">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MaxCapacity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Free -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Free">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Comfort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#HighDensity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#HighDensity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#PickupPointsDensity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#HybridOrElectricCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#HybridOrElectricCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Car"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Expensive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FivePeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ModeratelyRisky"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CarbonFootprint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Comfort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LowDensity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LowDensity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#PickupPointsDensity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LuxuryTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LuxuryTransportMode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Elitist"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For VIPs, businessmen, or just married people who want to underline their social status... or simply to show their love to the world !</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MaxCapacity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MaxCapacity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Comfort"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MediumDensity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MediumDensity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#PickupPointsDensity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Moderate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Moderate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ModeratelyRisky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ModeratelyRisky">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MoreThanFivePeople -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MoreThanFivePeople">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MaxCapacity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Motorbike -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Motorbike">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TwoWheeler"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryPolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Expensive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotAccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Risky"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Métro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Métro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Railway"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDensePickupPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#HighDensity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Fast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NoPolluting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NoPolluting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CarbonFootprint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotAccessibleToDisabledPerson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotAccessibleToDisabledPerson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DisabledFriendliness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotFrequent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotFrequent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnePerson -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnePerson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MaxCapacity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Personal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Personal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Private"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#PickupPointsDensity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#PickupPointsDensity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Polluting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Polluting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CarbonFootprint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Private -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Private">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Public -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Public">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Railway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Railway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Public"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MoreThanFivePeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Risky -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Risky">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Riverway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Riverway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Public"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MoreThanFivePeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Roadway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Roadway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Public"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SUV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SUV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Car"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryPolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Elitist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotAccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FivePeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ModeratelyRisky"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SedanCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SedanCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Car"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryPolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Elitist"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FivePeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ModeratelyRisky"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Shared -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Shared">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Private"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Slow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Slow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Speed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Speed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SuitableForAnEmergencyTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SuitableForAnEmergencyTransportMode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ModeratelyRisky"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Fast"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For medical emergencies, which requires high frequency and high speeds (but also... safety !)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SuitableForFamiliesTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SuitableForFamiliesTransportMode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FivePeople"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MoreThanFivePeople"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ModeratelyRisky"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For families, who may want a secure and safe transport mode, with a certain level of comfort, and able to accept up to five people</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SuitableForLargeGroupTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SuitableForLargeGroupTransportMode">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MoreThanFivePeople"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For large groups of tourists, who may participate in an organized trip for example</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SuitableForSchoolGroupTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SuitableForSchoolGroupTransportMode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Free"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#FivePeople"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MoreThanFivePeople"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For school groups, where security and safety is crucial, and cost must be relatively low</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SuitableForWorkersTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SuitableForWorkersTransportMode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Elitist"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotFrequent"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For employees who need to go to work, and thus relying on quite frequent transport mode, at a &apos;reasonable&apos; cost (note that this covers workers and managers, who have different budgets)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Taxi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Taxi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Roadway"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryPolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDensePickupPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MediumDensity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ModeratelyRisky"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Tramway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Tramway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Railway"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDensePickupPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#HighDensity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Fast"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DomainThing"/>
+        <rdfs:comment>Classes describing the different transport modes, which will be used to recommend the best choice for a user, depending on its needs</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportModeProperty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ValuePartition"/>
+        <rdfs:comment>Classes defining the properties of each transport mode, intrinsics (i.e. cost, frequency, speed) or related to their availability in the city (i.e. density, frequency)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TwoPeople -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TwoPeople">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MaxCapacity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TwoWheeler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TwoWheeler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Personal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TwoPeople"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#UnipersonalRiskyTransportMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#UnipersonalRiskyTransportMode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasMaxCapacity"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TwoPeople"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Risky"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#TransportMode"/>
+        <rdfs:comment>For young people who don&apos;t care to take risks, &apos;old&apos; bikers, or simply tourists who may want to discover the city using an exotic transport mode...</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ValuePartition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ValuePartition">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment></rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Speed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryPolluting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryPolluting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CarbonFootprint"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VerySlow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VerySlow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Speed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Walk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Walk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Personal"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NoPolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Low"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Free"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VerySlow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Train_(suburbs) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Train_(suburbs)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Railway"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCarbonFootprint"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasComfort"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDensePickupPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MediumDensity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasDisabledFriendliness"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#AccessibleToDisabledPerson"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasFrequency"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotFrequent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasRisk"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#hasSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Slow"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Bike"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#ElectricScooter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Motorbike"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#SedanCar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Walk"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#CarbonFootprint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Comfort"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cost"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#DisabledFriendliness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#PickupPointsDensity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safety"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Speed"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Cheap"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Elitist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Expensive"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Free"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Moderate"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Comfort"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LowDensity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#MediumDensity"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Fast"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Slow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryFast"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VerySlow"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Frequent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NotFrequent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#OnDemand"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#High"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Low"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Medium"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#LittlePolluting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#NoPolluting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Polluting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#VeryPolluting"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Métro"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Tramway"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Train_(suburbs)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#PickupPointsDensity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Risky"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/khiati_marzouki/ontologies/2021/9/transport-ontology#Safe"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
